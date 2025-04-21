@@ -16,6 +16,6 @@ public class Department {
     private String deptName;
     private String deptFull;
 
-    @OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "departgjpment", cascade = CascadeType.ALL)
     private List<Users> users;
 }
